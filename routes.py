@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from jsonschema import validate, ValidationError
 import logging
+from .utils import make_prediction
 
 logging.basicConfig(level=logging.ERROR)
 
