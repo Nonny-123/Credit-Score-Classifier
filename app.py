@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from app.routes import routes
+from routes import routes
 import logging
 
 def create_app():
